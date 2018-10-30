@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    padding: 20px;
+    color: white;
+}
+
+/* Small Device: Setting Header background for maximum width: 450px */
+@media screen and (max-width: 450px) {
+    header {
+        background-color: blue;
+        padding: 20px;
+    }
+}
